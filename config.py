@@ -35,7 +35,7 @@ API_HASH = environ.get("API_HASH", "27ad7de4fe5cab9f8e310c5cc4b8d43d")
 ADMINS = int(environ.get("ADMINS", "5559075560"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://ytemon920:rMmw50pm5Mun0Wns@cluster0.e6b8edw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
 DB_URI = environ.get("DB_URI", "mongodb+srv://emonfx:2FNeyugOXUInZ3vQ@emonfx.cvbeelh.mongodb.net/?retryWrites=true&w=majority&appName=EmonFx")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
@@ -47,7 +47,7 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_USERNAME = environ.get("BOT_USERNAME", "Movie_File_StoreBot") # your bot username without @
-PICS = (environ.get('PICS', '')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/6d00efcb5137dd4e85675.jpg https://telegra.ph/file/6d327de0775d9497b1c09.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
 AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
