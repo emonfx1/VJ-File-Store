@@ -32,7 +32,7 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "28593211"))
 API_HASH = environ.get("API_HASH", "27ad7de4fe5cab9f8e310c5cc4b8d43d")
-ADMINS = int(environ.get("ADMINS", "5559075560"))
+ADMINS = int(environ.get("ADMINS", "5559075560 6311633243"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://ytemon920:rMmw50pm5Mun0Wns@cluster0.e6b8edw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -55,7 +55,7 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002039026711"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002178072674')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002381285910')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
